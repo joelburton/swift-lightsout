@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31DCA1E70FA4F7FFF387059E /* readme.md in Sources */ = {isa = PBXBuildFile; fileRef = 31DCA6C6FA933445DA4E088D /* readme.md */; };
 		31DCADC3CC26AFA4CAAACF42 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DCAAD9D2522F8D4E7DF913 /* main.swift */; };
 		31DCAF10F41BBEB6A58DEC23 /* LightsOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DCA0EB02491B0E36C78CF4 /* LightsOut.swift */; };
 /* End PBXBuildFile section */
@@ -26,6 +27,7 @@
 /* Begin PBXFileReference section */
 		31DCA0EB02491B0E36C78CF4 /* LightsOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightsOut.swift; sourceTree = "<group>"; };
 		31DCA1F20C470E0320117192 /* lightsout */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lightsout; sourceTree = BUILT_PRODUCTS_DIR; };
+		31DCA6C6FA933445DA4E088D /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		31DCAAD9D2522F8D4E7DF913 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -45,6 +47,7 @@
 			children = (
 				31DCA78FE02DEB65FC46E33C /* Products */,
 				31DCAEBC099634463A3544A3 /* lightsout */,
+				31DCA6C6FA933445DA4E088D /* readme.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,6 +120,7 @@
 			files = (
 				31DCADC3CC26AFA4CAAACF42 /* main.swift in Sources */,
 				31DCAF10F41BBEB6A58DEC23 /* LightsOut.swift in Sources */,
+				31DCA1E70FA4F7FFF387059E /* readme.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
