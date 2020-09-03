@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b00c165e-0d39-48f2-a22b-2813fd8fdfe3" name="Default Changelist" comment="" />
+    <list default="true" id="b00c165e-0d39-48f2-a22b-2813fd8fdfe3" name="Default Changelist" comment="docs: add readme.md">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightsout/LightsOut.swift" beforeDir="false" afterPath="$PROJECT_DIR$/lightsout/LightsOut.swift" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,7 +32,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Swift" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration name="lightsout" type="AppleRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lightsout" TARGET_NAME="lightsout" CONFIG_NAME="Debug" SCHEME_NAME="lightsout" IS_LOCATION_SIMULATION_ALLOWED="true" APPLICATION_LANGUAGE="IDELaunchSchemeLanguageUseSystemLanguage" APPLICATION_REGION="" RUN_TARGET_PROJECT_NAME="lightsout" RUN_TARGET_NAME="lightsout" MAKE_ACTIVE="TRUE" SHOULD_DEBUG_EXTENSIONS="false">
@@ -50,38 +53,70 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599118528946</updated>
-      <workItem from="1599118529976" duration="8588000" />
+      <workItem from="1599118529976" duration="9862000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: initial working version">
+      <created>1599146831114</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599146831114</updated>
+    </task>
+    <task id="LOCAL-00002" summary="docs: add readme.md">
+      <created>1599147078986</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599147078986</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: initial working version" />
+    <MESSAGE value="docs: add readme.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs: add readme.md" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1358" height="407" key="GridCell.Tab.0.bottom" timestamp="1599146685803">
+    <state x="1020" y="123" width="1200" height="1212" key="DiffContextDialog" timestamp="1599147097893">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="1358" height="407" key="GridCell.Tab.0.bottom/0.23.2560.1417@0.23.2560.1417" timestamp="1599146685803" />
-    <state width="1358" height="407" key="GridCell.Tab.0.center" timestamp="1599146685803">
+    <state x="1020" y="123" width="1200" height="1212" key="DiffContextDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1599147097893" />
+    <state x="1497" y="637" key="Github.ShareDialog" timestamp="1599146872098">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="1358" height="407" key="GridCell.Tab.0.center/0.23.2560.1417@0.23.2560.1417" timestamp="1599146685803" />
-    <state width="1358" height="407" key="GridCell.Tab.0.left" timestamp="1599146685803">
+    <state x="1497" y="637" key="Github.ShareDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1599146872098" />
+    <state width="1358" height="407" key="GridCell.Tab.0.bottom" timestamp="1599147703876">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="1358" height="407" key="GridCell.Tab.0.left/0.23.2560.1417@0.23.2560.1417" timestamp="1599146685803" />
-    <state width="1358" height="407" key="GridCell.Tab.0.right" timestamp="1599146685803">
+    <state width="1358" height="407" key="GridCell.Tab.0.bottom/0.23.2560.1417@0.23.2560.1417" timestamp="1599147703876" />
+    <state width="1358" height="407" key="GridCell.Tab.0.center" timestamp="1599147703876">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="1358" height="407" key="GridCell.Tab.0.right/0.23.2560.1417@0.23.2560.1417" timestamp="1599146685803" />
-    <state x="1129" y="368" key="SettingsEditor" timestamp="1599142538910">
+    <state width="1358" height="407" key="GridCell.Tab.0.center/0.23.2560.1417@0.23.2560.1417" timestamp="1599147703876" />
+    <state width="1358" height="407" key="GridCell.Tab.0.left" timestamp="1599147703875">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="1129" y="368" key="SettingsEditor/0.23.2560.1417@0.23.2560.1417" timestamp="1599142538910" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1599145579375">
+    <state width="1358" height="407" key="GridCell.Tab.0.left/0.23.2560.1417@0.23.2560.1417" timestamp="1599147703875" />
+    <state width="1358" height="407" key="GridCell.Tab.0.right" timestamp="1599147703876">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="500" height="445" key="SwitcherDM/0.23.2560.1417@0.23.2560.1417" timestamp="1599145579375" />
+    <state width="1358" height="407" key="GridCell.Tab.0.right/0.23.2560.1417@0.23.2560.1417" timestamp="1599147703876" />
+    <state x="1129" y="368" key="SettingsEditor" timestamp="1599147021831">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1129" y="368" key="SettingsEditor/0.23.2560.1417@0.23.2560.1417" timestamp="1599147021831" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1599147878709">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.23.2560.1417@0.23.2560.1417" timestamp="1599147878709" />
+    <state x="1220" y="470" key="Vcs.Push.Dialog.v2" timestamp="1599147081475">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1220" y="470" key="Vcs.Push.Dialog.v2/0.23.2560.1417@0.23.2560.1417" timestamp="1599147081475" />
     <state x="1458" y="528" key="svn.repositoryBrowser" timestamp="1599146752511">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>

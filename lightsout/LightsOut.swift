@@ -20,24 +20,29 @@ struct Point {
     }
 }
 
+extension Int {
+    // why most functional languages don't come with this is puzzling; they're obviously
+    // not written by Scheme users ;)
+    // at least this is a low-cost abstraction and easy to add in Swift
+    func times(callback: () -> Void) {
+        (0..<self).forEach { _ in callback() }
+    }
+}
+
 class LightsOut {
-    var grid: [[Bool]] = []
     let difficulty: Int
     let numRows: Int
     let numCols: Int
+
+    var grid: [[Bool]]
 
     init(numRows: Int = 5, numCols: Int = 7, difficulty: Int = 3) {
         self.numRows = numRows
         self.numCols = numCols
         self.difficulty = difficulty
 
-        for _ in 0..<numRows {
-            grid.append(Array.init(repeating: false, count: numCols))
-        }
-
-        for _ in 0..<difficulty {
-            flipCrossAt(Point(y: Int.random(in: 0..<numRows), x: Int.random(in: 0..<numCols)))
-        }
+        grid = (0..<numRows).map { row in Array.init(repeating: false, count: numCols) }
+        difficulty.times { flipCrossAt(Point(y: Int.random(in: 0..<numRows), x: Int.random(in: 0..<numCols))) }
     }
 
     func isValidPoint(_ p: Point) -> Bool {
