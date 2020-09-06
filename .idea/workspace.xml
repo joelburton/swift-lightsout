@@ -1,9 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b00c165e-0d39-48f2-a22b-2813fd8fdfe3" name="Default Changelist" comment="docs: add readme.md">
+    <list default="true" id="b00c165e-0d39-48f2-a22b-2813fd8fdfe3" name="Default Changelist" comment="refactor: add more functional programming ideas">
+      <change afterPath="$PROJECT_DIR$/Package.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lightsout/LightsOut.swift" beforeDir="false" afterPath="$PROJECT_DIR$/lightsout/LightsOut.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightsout.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/lightsout.xcodeproj/project.pbxproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +75,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599118528946</updated>
-      <workItem from="1599118529976" duration="9862000" />
+      <workItem from="1599118529976" duration="13075000" />
+      <workItem from="1599352013649" duration="427000" />
+      <workItem from="1599352456493" duration="1042000" />
     </task>
     <task id="LOCAL-00001" summary="feat: initial working version">
       <created>1599146831114</created>
@@ -69,16 +93,35 @@
       <option name="project" value="LOCAL" />
       <updated>1599147078986</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="refactor: add more functional programming ideas">
+      <created>1599148125253</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599148125253</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: initial working version" />
     <MESSAGE value="docs: add readme.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="docs: add readme.md" />
+    <MESSAGE value="refactor: add more functional programming ideas" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: add more functional programming ideas" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1020" y="123" width="1200" height="1212" key="DiffContextDialog" timestamp="1599147097893">
@@ -89,34 +132,42 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="1497" y="637" key="Github.ShareDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1599146872098" />
-    <state width="1358" height="407" key="GridCell.Tab.0.bottom" timestamp="1599147703876">
+    <state width="1358" height="407" key="GridCell.Tab.0.bottom" timestamp="1599351993150">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="1358" height="407" key="GridCell.Tab.0.bottom/0.23.2560.1417@0.23.2560.1417" timestamp="1599147703876" />
-    <state width="1358" height="407" key="GridCell.Tab.0.center" timestamp="1599147703876">
+    <state width="1358" height="407" key="GridCell.Tab.0.bottom/0.23.2560.1417@0.23.2560.1417" timestamp="1599351993150" />
+    <state width="1358" height="407" key="GridCell.Tab.0.center" timestamp="1599351993150">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="1358" height="407" key="GridCell.Tab.0.center/0.23.2560.1417@0.23.2560.1417" timestamp="1599147703876" />
-    <state width="1358" height="407" key="GridCell.Tab.0.left" timestamp="1599147703875">
+    <state width="1358" height="407" key="GridCell.Tab.0.center/0.23.2560.1417@0.23.2560.1417" timestamp="1599351993150" />
+    <state width="1358" height="407" key="GridCell.Tab.0.left" timestamp="1599351993150">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="1358" height="407" key="GridCell.Tab.0.left/0.23.2560.1417@0.23.2560.1417" timestamp="1599147703875" />
-    <state width="1358" height="407" key="GridCell.Tab.0.right" timestamp="1599147703876">
+    <state width="1358" height="407" key="GridCell.Tab.0.left/0.23.2560.1417@0.23.2560.1417" timestamp="1599351993150" />
+    <state width="1358" height="407" key="GridCell.Tab.0.right" timestamp="1599351993150">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="1358" height="407" key="GridCell.Tab.0.right/0.23.2560.1417@0.23.2560.1417" timestamp="1599147703876" />
-    <state x="1129" y="368" key="SettingsEditor" timestamp="1599147021831">
+    <state width="1358" height="407" key="GridCell.Tab.0.right/0.23.2560.1417@0.23.2560.1417" timestamp="1599351993150" />
+    <state width="600" height="400" key="NewXcodeProjectWizard" timestamp="1599352487615">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="1129" y="368" key="SettingsEditor/0.23.2560.1417@0.23.2560.1417" timestamp="1599147021831" />
+    <state width="600" height="400" key="NewXcodeProjectWizard/0.23.2560.1417@0.23.2560.1417" timestamp="1599352487615" />
+    <state x="1129" y="368" key="SettingsEditor" timestamp="1599352389197">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1129" y="368" key="SettingsEditor/0.23.2560.1417@0.23.2560.1417" timestamp="1599352389197" />
     <state width="500" height="445" key="SwitcherDM" timestamp="1599147878709">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.23.2560.1417@0.23.2560.1417" timestamp="1599147878709" />
-    <state x="1220" y="470" key="Vcs.Push.Dialog.v2" timestamp="1599147081475">
+    <state x="1220" y="470" key="Vcs.Push.Dialog.v2" timestamp="1599365467155">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="1220" y="470" key="Vcs.Push.Dialog.v2/0.23.2560.1417@0.23.2560.1417" timestamp="1599147081475" />
+    <state x="1220" y="470" key="Vcs.Push.Dialog.v2/0.23.2560.1417@0.23.2560.1417" timestamp="1599365467155" />
+    <state x="1585" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1599365476406">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1585" y="348" width="670" height="676" key="search.everywhere.popup/0.23.2560.1417@0.23.2560.1417" timestamp="1599365476406" />
     <state x="1458" y="528" key="svn.repositoryBrowser" timestamp="1599146752511">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
