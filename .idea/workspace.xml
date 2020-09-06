@@ -22,10 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b00c165e-0d39-48f2-a22b-2813fd8fdfe3" name="Default Changelist" comment="refactor: add more functional programming ideas">
-      <change afterPath="$PROJECT_DIR$/Package.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lightsout.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/lightsout.xcodeproj/project.pbxproj" afterDir="false" />
+    <list default="true" id="b00c165e-0d39-48f2-a22b-2813fd8fdfe3" name="Default Changelist" comment="chore: trying to make this a Swift package.">
+      <change beforePath="$PROJECT_DIR$/Package.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Package.swift" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +75,7 @@
       <updated>1599118528946</updated>
       <workItem from="1599118529976" duration="13075000" />
       <workItem from="1599352013649" duration="427000" />
-      <workItem from="1599352456493" duration="1042000" />
+      <workItem from="1599352456493" duration="1160000" />
     </task>
     <task id="LOCAL-00001" summary="feat: initial working version">
       <created>1599146831114</created>
@@ -100,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599148125253</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="chore: trying to make this a Swift package.">
+      <created>1599365920413</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599365920413</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,7 +126,8 @@
     <MESSAGE value="feat: initial working version" />
     <MESSAGE value="docs: add readme.md" />
     <MESSAGE value="refactor: add more functional programming ideas" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: add more functional programming ideas" />
+    <MESSAGE value="chore: trying to make this a Swift package." />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: trying to make this a Swift package." />
   </component>
   <component name="WindowStateProjectService">
     <state x="1020" y="123" width="1200" height="1212" key="DiffContextDialog" timestamp="1599147097893">
@@ -160,10 +166,10 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.23.2560.1417@0.23.2560.1417" timestamp="1599147878709" />
-    <state x="1220" y="470" key="Vcs.Push.Dialog.v2" timestamp="1599365467155">
+    <state x="1220" y="470" key="Vcs.Push.Dialog.v2" timestamp="1599365922947">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="1220" y="470" key="Vcs.Push.Dialog.v2/0.23.2560.1417@0.23.2560.1417" timestamp="1599365467155" />
+    <state x="1220" y="470" key="Vcs.Push.Dialog.v2/0.23.2560.1417@0.23.2560.1417" timestamp="1599365922947" />
     <state x="1585" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1599365476406">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
